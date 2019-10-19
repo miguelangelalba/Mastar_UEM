@@ -1,0 +1,16 @@
+digraph Huffman {
+rankdir=TB
+NODEID [shape=record, label="''\n[1]\n (ROOT)", style=filled, fillcolor=white]
+NODEID -> NODEID0 [sametail, label="0"]
+NODEID0 [shape=record, label="'0'\n[0.5]\n'I am node #5.000000e-01'\n(SOURCE)", style=filled, fillcolor=salmon]
+NODEID -> NODEID1 [sametail, label="1"]
+NODEID1 [shape=record, label="'1'\n[0.5]\n", style=filled, fillcolor=white]
+NODEID1 -> NODEID10 [sametail, label="0"]
+NODEID10 [shape=record, label="'10'\n[0.25]\n'I am node #2.500000e-01'\n(SOURCE)", style=filled, fillcolor=salmon]
+NODEID1 -> NODEID11 [sametail, label="1"]
+NODEID11 [shape=record, label="'11'\n[0.25]\n", style=filled, fillcolor=white]
+NODEID11 -> NODEID110 [sametail, label="0"]
+NODEID110 [shape=record, label="'110'\n[0.125]\n'I am node #1.250000e-01'\n(SOURCE)", style=filled, fillcolor=salmon]
+NODEID11 -> NODEID111 [sametail, label="1"]
+NODEID111 [shape=record, label="'111'\n[0.125]\n'I am node #1.250000e-01'\n(SOURCE)", style=filled, fillcolor=salmon]
+}
